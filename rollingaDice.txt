@@ -1,0 +1,17 @@
+define class called Dice
+		- Method called roll()
+
+
+import random
+
+
+class Dice:
+
+    def roll(self):
+        face1 = random.randint(1, 6)
+        face2 = random.randint(1, 6)
+        return face1, face2
+
+
+dice = Dice()
+print(dice.roll())
